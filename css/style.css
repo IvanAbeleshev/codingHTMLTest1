@@ -21,6 +21,10 @@ body{
     background-color: black;
     font-family:'Inter';
     font-size: 16px;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
 }
 /*header css*/
 .navList{
@@ -78,34 +82,83 @@ body{
     display: flex;
     justify-content: space-around;
 }
-.leftPart{
+.waveBlock .leftPart{
     flex: 4;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding-left: 85px;
-    color: white;
     text-align: center;
     padding-left: 0;
 }
 
-.leftPart .top h1{
+.waveBlock .leftPart .top h1{
     font-size: 51px;
     font-family: 'Audiowide';
 }
-.leftPart button{
+.waveBlock .leftPart button{
     background-color: #8DFD1B;
 }
-.rightPart{
+.waveBlock .rightPart{
     flex: 6;
 }
-.leftPart .medium{
+.waveBlock .leftPart .medium{
     width: 70%;
 }
 
-button{
+.waveBlock .leftPart button{
     display: block;
     width: 200px;
     height: 60px;
+}
+
+.waveBlock{
+    margin-bottom: 50px;
+}
+
+/*wave nft*/
+.waveNFT{
+    width: 80%;
+    display: flex;
+}
+.waveNFT .leftPart{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    justify-content: flex-start;
+}
+.waveNFT .titleWaveNft{
+    margin-top: 0;
+}
+.waveNFT .titleWaveNft, .waveNFT .subTitleWaveNFT{
+    font-size: 38px;
+    font-family: 'Audiowide';    
+    margin-bottom: 0px;
+}
+.waveNFT .subTitleWaveNFT{
+    margin-top: 0px;
+    color: #A8A8A8;
+}
+
+.waveNFT .rightPart{
+    flex:1;
+}
+
+.waveNFT .top{
+    font-family: 'DM Mono';
+    color: #8DFD1B;
+    border-left: 2px solid #8DFD1B;
+    padding: 20px;
+    font-size: 21px;
+}
+
+.waveNFT button{
+    width: 40%;
+    height: 3rem;
+    background-color: transparent;
+    font-family: 'DM Mono';
+    color: white;
+    border: 1px solid #8DFD1B;
 }
