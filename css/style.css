@@ -1,19 +1,25 @@
 /*for all document*/
 @font-face {
     font-family: 'DM Mono';
-    src: url('./fonts/DMMono/DMMono-Regular.ttf');
+    src: url('../fonts/DMMono/DMMono-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('./fonts/Inter/static/Inter-Regular.ttf');
+    src: url('../fonts/Inter/static/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Audiowide';
+    src: url('../fonts/Audiowide/Audiowide-Regular.ttf');
+    width: 400;
 }
 
 body{
     margin: 0;
     padding: 0;
     background-color: black;
-    font-family:'Inter', 'DM Mono' monospace;
+    font-family:'Inter';
     font-size: 16px;
 }
 /*header css*/
@@ -63,4 +69,43 @@ body{
     margin-left: 0;
 }
 
+.headerMain img{
+    width: 123;
+    height: 32;
+}
 /* main block*/
+.waveBlock{
+    display: flex;
+    justify-content: space-around;
+}
+.leftPart{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 85px;
+    color: white;
+    text-align: center;
+    padding-left: 0;
+}
+
+.leftPart .top h1{
+    font-size: 51px;
+    font-family: 'Audiowide';
+}
+.leftPart button{
+    background-color: #8DFD1B;
+}
+.rightPart{
+    flex: 6;
+}
+.leftPart .medium{
+    width: 70%;
+}
+
+button{
+    display: block;
+    width: 200px;
+    height: 60px;
+}
