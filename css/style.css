@@ -1,12 +1,22 @@
+/*for all document*/
 @font-face {
-    font-family: 'Roboto Mono';
-    src: url();
+    font-family: 'DM Mono';
+    src: url('./fonts/DMMono/DMMono-Regular.ttf');
 }
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter/static/Inter-Regular.ttf');
+}
+
 body{
     margin: 0;
     padding: 0;
     background-color: black;
+    font-family:'Inter', 'DM Mono' monospace;
+    font-size: 16px;
 }
+/*header css*/
 .navList{
     display: flex;
     list-style-type: none;
@@ -19,6 +29,8 @@ body{
 .navItem a{
     color: white;
     text-decoration: none;
+    font-size: 16px;
+    font-family: 'DM Mono';
 }
 
 .headerMain{
@@ -30,5 +42,25 @@ body{
     justify-content: space-between;
     margin: 0;
     padding: 25px 120px 0px 120px;
-    border: 2px solid red;
 }
+
+.listSocialNetwork{
+    display: flex;
+    align-content: flex-start;
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.itemSocialNetwork{
+    margin-left: 15px;
+}
+.itemSocialNetwork img{
+    width: 36px;
+    height: 36px;
+}
+
+.itemSocialNetwork:first-child{
+    margin-left: 0;
+}
+
+/* main block*/
