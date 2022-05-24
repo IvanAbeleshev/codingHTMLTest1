@@ -201,3 +201,76 @@ button:hover{
     height: 245px;
     border-radius: 7px;
 }
+
+/*block stories*/
+.storiesBlock .storyHeader{
+    display: flex;
+    justify-content: center;
+    font-family: 'Audiowide';
+    font-size: 38px;
+    margin: 50px 0px;
+}
+.storiesBlock .textStories{
+    color: #A8A8A8;
+    display: inline-block;
+    padding-left: 15px;
+}
+.contentNavigation .contentNavigationItem{
+    padding: 20px 0px;
+    padding-left: 10px;
+    width: 100%;
+    font-family: 'DM Mono';
+}
+.contentNavigation .contentNavigationItem:hover{
+    cursor: pointer;
+}
+
+.contentNavigation ul{
+    list-style-type: none;
+}
+
+.contentNavigation .activeItem{
+    color: #8DFD1B;
+    background-color: #222222;
+}
+
+.storiesContent{
+    display: flex;
+    padding: 0px 5%;
+    margin: 0 5%;
+    align-content: flex-start;
+}
+
+.storiesContent .contentNavigation{
+    flex: 3;
+}
+
+.storiesContent .content{
+    flex: 8;
+}
+.content .storyData{
+    padding: 7%;
+    background-color: #222222;
+    display: flex;
+}
+.content .rightPartOfStory{
+    flex: 3;
+    padding-left: 5%;
+}
+.content .leftPartOfStory{
+    flex: 1;
+}
+.content .rightPartOfStory .nameStory{
+    padding: 5%;
+    font-family: 'DM Mono';
+    font-size: 21px;
+    color: #8DFD1B;
+    border-left: 1px solid #8DFD1B;
+}
+.content img{
+    width: 180px;    
+    height: 250px;
+}
+.contet .hideStorie{
+    display: none;
+}
