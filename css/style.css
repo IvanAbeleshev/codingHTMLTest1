@@ -249,10 +249,9 @@ button:hover{
     flex: 8;
 }
 .content .storyData{
-    padding: 7%;
-    background-color: #222222;
-    display: flex;
+    box-sizing: content-box;
 }
+
 .content .rightPartOfStory{
     flex: 3;
     padding-left: 5%;
@@ -271,6 +270,17 @@ button:hover{
     width: 180px;    
     height: 250px;
 }
-.contet .hideStorie{
+
+.content .showStory{
+    padding: 7%;
+    background-color: #222222;
+    display: flex;
+}
+
+.content .hideStory{
     display: none;
+}
+
+.content .storyData{
+    min-height: 350px;
 }
