@@ -430,3 +430,39 @@ button:hover{
     position: absolute;
     transform: translateX(10%) translateY(100%);
 }
+
+/*block partners*/
+.partners{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.partners .titleOurPartners{
+    font-family: 'DMMono';
+    font-size: 11px;
+    color: #8DFD1B;
+    margin-bottom: 60px;
+}
+
+.partners .LogoPartners{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.partners .itemPartner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 200px;
+    
+}
+.partners .itemPartner:hover{
+    transition-duration: 3s;
+    transition-property: width, display, height, flex-direction, justify-content;
+}
