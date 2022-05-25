@@ -26,16 +26,20 @@ body{
 button:hover{
     cursor: pointer;
 }
+
+
 /*header css*/
 .navList{
     display: flex;
     list-style-type: none;
     margin-top: 0;
 }
+
 .navItem{
     color: white;
     margin-left: 15px;
 }
+
 .navItem a{
     color: white;
     text-decoration: none;
@@ -64,6 +68,7 @@ button:hover{
 .itemSocialNetwork{
     margin-left: 15px;
 }
+
 .itemSocialNetwork img{
     width: 36px;
     height: 36px;
@@ -77,11 +82,14 @@ button:hover{
     width: 123;
     height: 32;
 }
+
+
 /* main block*/
 .waveBlock{
     display: flex;
     justify-content: space-around;
 }
+
 .waveBlock .leftPart{
     flex: 4;
     display: flex;
@@ -97,12 +105,15 @@ button:hover{
     font-size: 51px;
     font-family: 'Audiowide';
 }
+
 .waveBlock .leftPart button{
     background-color: #8DFD1B;
 }
+
 .waveBlock .rightPart{
     flex: 6;
 }
+
 .waveBlock .leftPart .medium{
     width: 70%;
 }
@@ -117,11 +128,13 @@ button:hover{
     margin-bottom: 50px;
 }
 
+
 /*wave nft*/
 .waveNFT{
     width: 80%;
     display: flex;
 }
+
 .waveNFT .leftPart{
     flex: 1;
     display: flex;
@@ -129,14 +142,17 @@ button:hover{
     padding-left: 5%;
     justify-content: flex-start;
 }
+
 .waveNFT .titleWaveNft{
     margin-top: 0;
 }
+
 .waveNFT .titleWaveNft, .waveNFT .subTitleWaveNFT{
     font-size: 38px;
     font-family: 'Audiowide';    
     margin-bottom: 0px;
 }
+
 .waveNFT .subTitleWaveNFT{
     margin-top: 0px;
     color: #A8A8A8;
@@ -163,6 +179,7 @@ button:hover{
     border: 1px solid #8DFD1B;
 }
 
+
 /*block artist*/
 @keyframes animationTitleArtist {
     0%{padding-left: 10%;}
@@ -176,6 +193,7 @@ button:hover{
     font-family: 'Audiowide';
     font-size: 71px;
 }
+
 .artist .titleArtist span{
     display: inline-block;
     padding-left: 10%;
@@ -190,6 +208,7 @@ button:hover{
     grid-template-rows: repeat(2, 1fr);
     row-gap: 50px;
 }
+
 .artist .artistPerson .itemGrid{
     display: flex;
     flex-direction: column;
@@ -202,6 +221,7 @@ button:hover{
     border-radius: 7px;
 }
 
+
 /*block stories*/
 .storiesBlock .storyHeader{
     display: flex;
@@ -210,17 +230,20 @@ button:hover{
     font-size: 38px;
     margin: 50px 0px;
 }
+
 .storiesBlock .textStories{
     color: #A8A8A8;
     display: inline-block;
     padding-left: 15px;
 }
+
 .contentNavigation .contentNavigationItem{
     padding: 20px 0px;
     padding-left: 10px;
     width: 100%;
     font-family: 'DM Mono';
 }
+
 .contentNavigation .contentNavigationItem:hover{
     cursor: pointer;
 }
@@ -256,9 +279,11 @@ button:hover{
     flex: 3;
     padding-left: 5%;
 }
+
 .content .leftPartOfStory{
     flex: 1;
 }
+
 .content .rightPartOfStory .nameStory{
     padding: 5%;
     font-family: 'DM Mono';
@@ -266,6 +291,7 @@ button:hover{
     color: #8DFD1B;
     border-left: 1px solid #8DFD1B;
 }
+
 .content img{
     width: 180px;    
     height: 250px;
@@ -283,4 +309,124 @@ button:hover{
 
 .content .storyData{
     min-height: 350px;
+}
+
+
+/*roadmap block*/
+.roadMap{
+    margin: 100px 0px;
+}
+
+.titleImageRoadMap{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.roadmapData{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.roadmapData .titleTextRoadmap{
+    font-family: 'Audiowide';
+    font-size: 38px;
+}
+
+.roadmapData .itemRoadmap{
+    width: 30%;
+    height: 250px;
+    margin: 30px 0px;
+}
+
+.itemRoadmap .topPartItemRoadmap, .itemRoadmap .buttomPartItemRoadmap{
+    background-color: #222222;
+}
+
+.itemRoadmap .topPartItemRoadmap, .itemRoadmap .buttomPartItemRoadmap{
+    border: 1px solid #8DFD1B;
+}
+
+.roadMap .topPartItemRoadmap{
+    display: flex;
+    height: 30%;
+}
+
+.topPartItemRoadmap .topLeftElement{
+    font-family: 'DMMono';
+    font-size: 28px;
+    padding: 5px 12px;
+    margin: 15px;
+}
+
+.topPartItemRoadmap .topLeftElement:first-child{
+    background-color: #8DFD1B;
+    color: black;
+}
+
+.topPartItemRoadmap .topRightElement{
+    margin: 15px;
+}
+
+.topRightElement .countStep{
+    font-family: 'DMMono';
+    font-size: 8px;
+    color: #8DFD1B;
+    padding: 5px 0px;
+}
+
+.topRightElement .nameOfStep{
+    font-family: 'DMMono';
+    font-size: 16px;
+}
+
+.itemRoadmap .buttomPartItemRoadmap{
+    display: flex;
+    height: 70%;
+}
+
+.buttomPartItemRoadmap .leftPart{
+    flex: 2;
+}
+
+.buttomPartItemRoadmap .rightPart{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.buttomPartItemRoadmap .rightPart img{
+    width: 130px;
+    height: 130px;
+}
+
+.buttomPartItemRoadmap .leftPart p{
+    font-size: 11px;
+    padding-left: 20px;
+}
+
+.buttomPartItemRoadmap .leftPart p:last-child{
+    padding-left: 5px;
+}
+
+.roadmapData>span{
+    display: block;
+    margin: 30px 0px;
+    color: #8DFD1B;
+}
+
+#firstImageAround{
+    position: absolute;
+    transform: translateY(-35%);
+}
+
+#secondImageAround{
+    position: absolute;
+    transform: translateX(170%) translateY(30%);
+}
+
+#thirdthImageAround{
+    position: absolute;
+    transform: translateX(10%) translateY(100%);
 }
