@@ -574,8 +574,88 @@ width: 100%;
     font-family: 'DMMono';
     color: #8DFD1B;
 }
+
 .team .infoItem p{
     text-align: center;
     width: 60%;
     margin: 30px 20px
+}
+
+/*block Join our*/
+.blockJoinOur{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.blockJoinOur .imgJoinOur img{
+    width: 584px;
+    height: 584px
+}
+
+.blockJoinOur .titleJoinOur h1{
+    margin: 0;
+    font-family: 'Audiowide';
+    font-size: 51px;
+}
+.blockJoinOur .titleJoinOur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+.blockJoinOur .buttonJoinDiscord{
+    background-color: #8DFD1B;
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.blockJoinOur .buttonJoinDiscord:hover{
+    cursor: pointer;
+}
+
+.blockJoinOur .buttonJoinDiscord img{
+    width: 20px;
+    height: 20px;
+}
+
+/*footer*/
+.footer{
+    padding: 50px 10%;
+    height: 200px;
+    background-color: #42006A;
+}
+
+.footer a{
+    font-family: 'DMMOno';
+    text-decoration: none;
+    color: white;
+}
+
+.mainFooter{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainFooter>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.mainFooter>div:last-child{
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+}
+
+.mainFooter>div:first-child{
+    justify-content: space-evenly;
+    font-size: 13px;
 }
