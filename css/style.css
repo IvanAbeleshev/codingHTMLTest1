@@ -200,7 +200,7 @@ button:hover{
     padding-left: 10%;
     animation-name: animationTitleArtist;
     animation-duration: 6s;
-    animation-timing-function: ease-out;
+    animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
@@ -510,6 +510,7 @@ width: 100%;
 }
 
 .someQuestion{
+    margin-left: 20%;
     cursor: pointer;
     padding: 15px 0px;
     background-color: #222222;
@@ -524,4 +525,57 @@ width: 100%;
     color: #C4C4C4;
 }
 
-/**/
+/*block team*/
+.team{
+    margin-bottom: 100px;
+}
+
+.team .animationTextTeam{
+    display: block;
+    padding-left: 10%;
+    font-family: 'Audiowide';
+    font-size: 79px;
+    animation-name: animationTitleArtist;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-bottom: 100px;
+}
+
+.teamItems{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team .infoItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.team .infoItem>img{
+    width: 320px;
+    height: 320px;
+}
+
+.team .itemSocialNework img{
+    width: 32px;
+    height: 32px;
+}
+
+.team .infoItem h3{
+    font-family: 'DMMono';
+    font-size: 21px;
+}
+
+.team .infoItem h6{
+    font-family: 'DMMono';
+    color: #8DFD1B;
+}
+.team .infoItem p{
+    text-align: center;
+    width: 60%;
+    margin: 30px 20px
+}
